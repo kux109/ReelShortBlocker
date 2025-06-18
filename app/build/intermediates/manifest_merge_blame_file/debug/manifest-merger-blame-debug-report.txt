@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reelshortblocker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+11-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:3:8-88
+11-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:3:25-85
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.reelshortblocker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.reelshortblocker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:4:8-31:22
+20        android:allowBackup="true"
+20-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:5:12-38
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:6:12-46
+24        android:label="@string/app_name"
+24-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:7:12-44
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:8:12-57
+26        android:supportsRtl="true"
+26-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:9:12-38
+27        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+27-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:10:12-70
+28        <activity
+28-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:11:12-18:23
+29            android:name="com.example.reelshortblocker.MainActivity"
+29-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:12:16-44
+30            android:exported="true" >
+30-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:13:16-39
+31            <intent-filter>
+31-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:14:16-17:32
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:15:20-72
+32-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:15:28-69
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:16:20-80
+34-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:16:30-77
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:19:12-30:22
+39            android:name="com.example.reelshortblocker.ReelShortBlockerService"
+39-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:20:16-55
+40            android:enabled="true"
+40-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:21:16-38
+41            android:exported="false"
+41-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:22:16-40
+42            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+42-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:23:16-82
+43            <intent-filter>
+43-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:24:16-26:32
+44                <action android:name="android.accessibilityservice.AccessibilityService" />
+44-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:25:20-95
+44-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:25:28-92
+45            </intent-filter>
+46
+47            <meta-data
+47-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:27:16-29:75
+48                android:name="android.accessibilityservice"
+48-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:28:20-63
+49                android:resource="@xml/accessibility_service_config" />
+49-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:29:20-72
+50        </service>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/29e5b5bd6bcc029d38e6072392b8b6d4/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/29e5b5bd6bcc029d38e6072392b8b6d4/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.reelshortblocker.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/29e5b5bd6bcc029d38e6072392b8b6d4/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/29e5b5bd6bcc029d38e6072392b8b6d4/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/29e5b5bd6bcc029d38e6072392b8b6d4/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/29e5b5bd6bcc029d38e6072392b8b6d4/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/29e5b5bd6bcc029d38e6072392b8b6d4/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/8891136e42edc4be356dd444147de65a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/8891136e42edc4be356dd444147de65a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/8891136e42edc4be356dd444147de65a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

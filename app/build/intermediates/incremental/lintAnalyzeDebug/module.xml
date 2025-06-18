@@ -1,0 +1,29 @@
+<lint-module
+    format="1"
+    dir="/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app"
+    name=":app"
+    type="APP"
+    maven="ReelShortBlocker:app:"
+    gradle="7.4.2"
+    buildFolder="build"
+    bootClassPath="/Library/Android/sdk/platforms/android-34/android.jar:/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      disable="ProtectedPermissions"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="Deprecation"
+        severity="WARNING" />
+      <severity
+        id="ProtectedPermissions"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="debug"/>
+</lint-module>

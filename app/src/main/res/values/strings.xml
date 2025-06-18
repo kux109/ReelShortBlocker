@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReelShortBlocker</string>
+    <string name="accessibility_service_description">Blocks specific app interactions by monitoring accessibility events</string>
+    <string name="enable_service_button">Enable Accessibility Service</string>
+</resources>
