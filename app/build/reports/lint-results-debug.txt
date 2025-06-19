@@ -17,6 +17,24 @@
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/values/strings.xml:5: Warning: The resource R.string.enable_service_button appears to be unused [UnusedResources]
+    <string name="enable_service_button">Enable Accessibility Service</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
 /Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/mipmap/ic_launcher_round.png: Warning: Launcher icon used as round icon did not have a circular shape [IconLauncherShape]
 
    Explanation for issues of type "IconLauncherShape":
@@ -37,9 +55,35 @@
    sometimes point to icons that were accidentally overwritten or accidentally
    not updated.
 
-/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/layout/activity_main.xml:11: Warning: Hardcoded string "ReelShortBlocker", should use @string resource [HardcodedText]
-        android:text="ReelShortBlocker"
-        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:33: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                statusText.setText("Accessibility Service is already enabled!");
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:59: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            statusText.setText("Accessibility Service: Enabled");
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:62: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            statusText.setText("Accessibility Service: Disabled");
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/layout/activity_main.xml:13: Warning: Hardcoded string "Accessibility Service: Disabled", should use @string resource [HardcodedText]
+           android:text="Accessibility Service: Disabled"
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/layout/activity_main.xml:21: Warning: Hardcoded string "Enable Accessibility Service", should use @string resource [HardcodedText]
+           android:text="Enable Accessibility Service"/>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "HardcodedText":
    Hardcoding text attributes directly in layout files is bad for several
@@ -55,4 +99,4 @@
    There are quickfixes to automatically extract this hardcoded string into a
    resource lookup.
 
-0 errors, 5 warnings
+0 errors, 10 warnings

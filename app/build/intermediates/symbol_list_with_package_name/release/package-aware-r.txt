@@ -710,7 +710,7 @@ id default_activity_button
 id dialog_button
 id disableHome
 id edit_query
-id enable_service_button
+id enableButton
 id end
 id expand_activities_button
 id expanded_menu
@@ -771,6 +771,7 @@ id split_action_bar
 id src_atop
 id src_in
 id src_over
+id statusText
 id submenuarrow
 id submit_area
 id tabMode

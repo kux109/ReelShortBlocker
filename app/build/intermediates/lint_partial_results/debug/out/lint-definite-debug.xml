@@ -4,15 +4,71 @@
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;ReelShortBlocker&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Accessibility Service: Disabled&quot;, should use `@string` resource">
         <location
             file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="11"
-            column="9"
-            startOffset="368"
-            endLine="11"
-            endColumn="40"
-            endOffset="399"/>
+            line="13"
+            column="12"
+            startOffset="467"
+            endLine="13"
+            endColumn="58"
+            endOffset="513"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enable Accessibility Service&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="21"
+            column="12"
+            startOffset="761"
+            endLine="21"
+            endColumn="55"
+            endOffset="804"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/reelshortblocker/MainActivity.java"
+            line="33"
+            column="36"
+            startOffset="1120"
+            endLine="33"
+            endColumn="79"
+            endOffset="1163"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/reelshortblocker/MainActivity.java"
+            line="59"
+            column="32"
+            startOffset="2126"
+            endLine="59"
+            endColumn="64"
+            endOffset="2158"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/reelshortblocker/MainActivity.java"
+            line="62"
+            column="32"
+            startOffset="2253"
+            endLine="62"
+            endColumn="65"
+            endOffset="2286"/>
     </incident>
 
     <incident
