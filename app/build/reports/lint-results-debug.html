@@ -177,9 +177,9 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 10 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 12 warnings</span>
       <div class="mdl-layout-spacer"></div>
-      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Wed Jun 18 20:44:00 EDT 2025 by AGP (7.4.2)</nav>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Mon Jun 23 15:31:26 EDT 2025 by AGP (7.4.2)</nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -188,10 +188,10 @@ document.getElementById(id).style.display = 'none';
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
       <a class="mdl-navigation__link" href="#UnknownIssueId"><i class="material-icons warning-icon">warning</i>Unknown Lint Issue Id (1)</a>
       <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (1)</a>
-      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (1)</a>
+      <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (2)</a>
       <a class="mdl-navigation__link" href="#IconLauncherShape"><i class="material-icons warning-icon">warning</i>The launcher icon shape should use a distinct silhouette (1)</a>
       <a class="mdl-navigation__link" href="#IconDuplicates"><i class="material-icons warning-icon">warning</i>Duplicated icons under different names (1)</a>
-      <a class="mdl-navigation__link" href="#SetTextI18n"><i class="material-icons warning-icon">warning</i>TextView Internationalization (3)</a>
+      <a class="mdl-navigation__link" href="#SetTextI18n"><i class="material-icons warning-icon">warning</i>TextView Internationalization (4)</a>
       <a class="mdl-navigation__link" href="#HardcodedText"><i class="material-icons warning-icon">warning</i>Hardcoded text (2)</a>
     </nav>
   </div>
@@ -218,7 +218,7 @@ document.getElementById(id).style.display = 'none';
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Performance">Performance</a>
 </td></tr>
 <tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#UnusedResources">UnusedResources</a>: Unused resources</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
 </td></tr>
@@ -231,12 +231,12 @@ document.getElementById(id).style.display = 'none';
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
 </td></tr>
 <tr>
-<td class="countColumn">3</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">4</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#SetTextI18n">SetTextI18n</a>: TextView Internationalization</td></tr>
 <tr>
 <td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#HardcodedText">HardcodedText</a>: Hardcoded text</td></tr>
-<tr><td></td><td class="categoryColumn"><a href="#ExtraIssues">Included Additional Checks (20)</a>
+<tr><td></td><td class="categoryColumn"><a href="#ExtraIssues">Included Additional Checks (16)</a>
 </td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (39)</a>
 </td></tr>
@@ -259,11 +259,11 @@ Dismiss</button>            </div>
 <div class="warningslist">
 <span class="location"><a href="../../build.gradle">../../build.gradle</a>:31</span>: <span class="message">Unknown issue id "Deprecation"</span><br /><pre class="errorlines">
 <span class="lineno"> 28 </span>
-<span class="lineno"> 29 </span>       lint {
-<span class="lineno"> 30 </span>           disable <span class="string">'ProtectedPermissions'</span>
-<span class="caretline"><span class="lineno"> 31 </span>           warning <span class="string">'</span><span class="warning"><span class="string">Deprecation</span></span><span class="string">'</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 32 </span>       }
-<span class="lineno"> 33 </span>   }
+<span class="lineno"> 29 </span>    lint {
+<span class="lineno"> 30 </span>        disable <span class="string">'ProtectedPermissions'</span>
+<span class="caretline"><span class="lineno"> 31 </span>        warning <span class="string">'</span><span class="warning"><span class="string">Deprecation</span></span><span class="string">'</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 32 </span>    }
+<span class="lineno"> 33 </span>}
 </pre>
 
 </div>
@@ -301,11 +301,13 @@ Dismiss</button>            </div>
 <div class="issue">
 <div class="warningslist">
 <span class="location"><a href="../../build.gradle">../../build.gradle</a>:36</span>: <span class="message">A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1</span><br /><pre class="errorlines">
-<span class="lineno"> 33 </span>   }
+<span class="lineno"> 33 </span>}
 <span class="lineno"> 34 </span>
-<span class="lineno"> 35 </span>   dependencies {
-<span class="caretline"><span class="lineno"> 36 </span>       implementation <span class="warning"><span class="string">'androidx.appcompat:appcompat:1.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 37 </span>   }</pre>
+<span class="lineno"> 35 </span>dependencies {
+<span class="caretline"><span class="lineno"> 36 </span>    implementation <span class="warning"><span class="string">'androidx.appcompat:appcompat:1.6.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 37 </span>    implementation <span class="string">'com.google.android.material:material:1.12.0'</span> <span class="comment">// Add this line</span>
+<span class="lineno"> 38 </span>}
+</pre>
 
 </div>
 <div class="metadata"><div class="explanation" id="explanationGradleDependency" style="display: none;">
@@ -345,6 +347,14 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:4</span>: <span class="message">The resource <code>R.string.accessibility_service_description</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 1 </span><span class="prologue">&lt;?xml version="1.0" encoding="utf-8"?></span>
+<span class="lineno"> 2 </span><span class="tag">&lt;resources></span>
+<span class="lineno"> 3 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"app_name"</span>>ReelShortBlocker<span class="tag">&lt;/string></span>
+<span class="caretline"><span class="lineno"> 4 </span>    <span class="tag">&lt;string</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"accessibility_service_description"</span></span>>Blocks specific app interactions by monitoring accessibility events<span class="tag">&lt;/string></span></span>
+<span class="lineno"> 5 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"enable_service_button"</span>>Enable Accessibility Service<span class="tag">&lt;/string></span>
+<span class="lineno"> 6 </span><span class="tag">&lt;/resources></span></pre>
+
 <span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:5</span>: <span class="message">The resource <code>R.string.enable_service_button</code> appears to be unused</span><br /><pre class="errorlines">
 <span class="lineno"> 2 </span><span class="tag">&lt;resources></span>
 <span class="lineno"> 3 </span>    <span class="tag">&lt;string</span><span class="attribute"> name</span>=<span class="value">"app_name"</span>>ReelShortBlocker<span class="tag">&lt;/string></span>
@@ -489,34 +499,43 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/java/com/example/reelshortblocker/MainActivity.java">../../src/main/java/com/example/reelshortblocker/MainActivity.java</a>:33</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 30 </span>            <span class="keyword">if</span> (!isAccessibilityServiceEnabled()) {
-<span class="lineno"> 31 </span>                startActivity(<span class="keyword">new</span> Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
-<span class="lineno"> 32 </span>            } <span class="keyword">else</span> {
-<span class="caretline"><span class="lineno"> 33 </span>                statusText.setText(<span class="warning"><span class="string">"Accessibility Service is already enabled!"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 34 </span>                enableButton.setEnabled(<span class="keyword">false</span>);
-<span class="lineno"> 35 </span>            }
-<span class="lineno"> 36 </span>        });
+<span class="location"><a href="../../src/main/java/com/example/reelshortblocker/MainActivity.java">../../src/main/java/com/example/reelshortblocker/MainActivity.java</a>:47</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 44 </span>    <span class="keyword">private</span> <span class="keyword">void</span> updateUI() {
+<span class="lineno"> 45 </span>        <span class="keyword">if</span> (isAccessibilityServiceEnabled(<span class="keyword">this</span>, ReelShortBlockerService.<span class="keyword">class</span>)) {
+<span class="lineno"> 46 </span>            Log.d(TAG, <span class="string">"Service is ENABLED. Updating UI."</span>);
+<span class="caretline"><span class="lineno"> 47 </span>            statusText.setText(<span class="warning"><span class="string">"Service is Active"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 48 </span>            settingsButton.setText(<span class="string">"Disable Service (in Settings)"</span>);
+<span class="lineno"> 49 </span>        } <span class="keyword">else</span> {
+<span class="lineno"> 50 </span>            Log.d(TAG, <span class="string">"Service is DISABLED. Updating UI."</span>);
 </pre>
 
-<span class="location"><a href="../../src/main/java/com/example/reelshortblocker/MainActivity.java">../../src/main/java/com/example/reelshortblocker/MainActivity.java</a>:59</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 56 </span>
-<span class="lineno"> 57 </span>    <span class="keyword">private</span> <span class="keyword">void</span> updateServiceStatus() {
-<span class="lineno"> 58 </span>        <span class="keyword">if</span> (isAccessibilityServiceEnabled()) {
-<span class="caretline"><span class="lineno"> 59 </span>            statusText.setText(<span class="warning"><span class="string">"Accessibility Service: Enabled"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 60 </span>            enableButton.setEnabled(<span class="keyword">false</span>);
-<span class="lineno"> 61 </span>        } <span class="keyword">else</span> {
-<span class="lineno"> 62 </span>            statusText.setText(<span class="string">"Accessibility Service: Disabled"</span>);
+<span class="location"><a href="../../src/main/java/com/example/reelshortblocker/MainActivity.java">../../src/main/java/com/example/reelshortblocker/MainActivity.java</a>:48</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 45 </span>        <span class="keyword">if</span> (isAccessibilityServiceEnabled(<span class="keyword">this</span>, ReelShortBlockerService.<span class="keyword">class</span>)) {
+<span class="lineno"> 46 </span>            Log.d(TAG, <span class="string">"Service is ENABLED. Updating UI."</span>);
+<span class="lineno"> 47 </span>            statusText.setText(<span class="string">"Service is Active"</span>);
+<span class="caretline"><span class="lineno"> 48 </span>            settingsButton.setText(<span class="warning"><span class="string">"Disable Service (in Settings)"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 49 </span>        } <span class="keyword">else</span> {
+<span class="lineno"> 50 </span>            Log.d(TAG, <span class="string">"Service is DISABLED. Updating UI."</span>);
+<span class="lineno"> 51 </span>            statusText.setText(<span class="string">"Service is Inactive. Please enable it."</span>);
 </pre>
 
-<span class="location"><a href="../../src/main/java/com/example/reelshortblocker/MainActivity.java">../../src/main/java/com/example/reelshortblocker/MainActivity.java</a>:62</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
-<span class="lineno"> 59 </span>            statusText.setText(<span class="string">"Accessibility Service: Enabled"</span>);
-<span class="lineno"> 60 </span>            enableButton.setEnabled(<span class="keyword">false</span>);
-<span class="lineno"> 61 </span>        } <span class="keyword">else</span> {
-<span class="caretline"><span class="lineno"> 62 </span>            statusText.setText(<span class="warning"><span class="string">"Accessibility Service: Disabled"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 63 </span>            enableButton.setEnabled(<span class="keyword">true</span>);
-<span class="lineno"> 64 </span>        }
-<span class="lineno"> 65 </span>    }
+<span class="location"><a href="../../src/main/java/com/example/reelshortblocker/MainActivity.java">../../src/main/java/com/example/reelshortblocker/MainActivity.java</a>:51</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 48 </span>            settingsButton.setText(<span class="string">"Disable Service (in Settings)"</span>);
+<span class="lineno"> 49 </span>        } <span class="keyword">else</span> {
+<span class="lineno"> 50 </span>            Log.d(TAG, <span class="string">"Service is DISABLED. Updating UI."</span>);
+<span class="caretline"><span class="lineno"> 51 </span>            statusText.setText(<span class="warning"><span class="string">"Service is Inactive. Please enable it."</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 52 </span>            settingsButton.setText(<span class="string">"Open Accessibility Settings"</span>);
+<span class="lineno"> 53 </span>        }
+<span class="lineno"> 54 </span>    }
+</pre>
+
+<span class="location"><a href="../../src/main/java/com/example/reelshortblocker/MainActivity.java">../../src/main/java/com/example/reelshortblocker/MainActivity.java</a>:52</span>: <span class="message">String literal in <code>setText</code> can not be translated. Use Android resources instead.</span><br /><pre class="errorlines">
+<span class="lineno"> 49 </span>        } <span class="keyword">else</span> {
+<span class="lineno"> 50 </span>            Log.d(TAG, <span class="string">"Service is DISABLED. Updating UI."</span>);
+<span class="lineno"> 51 </span>            statusText.setText(<span class="string">"Service is Inactive. Please enable it."</span>);
+<span class="caretline"><span class="lineno"> 52 </span>            settingsButton.setText(<span class="warning"><span class="string">"Open Accessibility Settings"</span></span>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 53 </span>        }
+<span class="lineno"> 54 </span>    }
 </pre>
 
 </div>
@@ -558,22 +577,23 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:13</span>: <span class="message">Hardcoded string "Accessibility Service: Disabled", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 10 </span><span class="attribute">           </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/statusText"</span>
-<span class="lineno"> 11 </span>           <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 12 </span>           <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="caretline"><span class="lineno"> 13 </span>           <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Accessibility Service: Disabled"</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 14 </span>           <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"18sp"</span>
-<span class="lineno"> 15 </span>           <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"16dp"</span>/>
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:16</span>: <span class="message">Hardcoded string "Checking service status...", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 13 </span>        <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 14 </span>        <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 15 </span>        <span class="prefix">android:</span><span class="attribute">layout_marginBottom</span>=<span class="value">"24dp"</span>
+<span class="caretline"><span class="lineno"> 16 </span>        <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Checking service status..."</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 17 </span>        <span class="prefix">android:</span><span class="attribute">textAlignment</span>=<span class="value">"center"</span>
+<span class="lineno"> 18 </span>        <span class="prefix">android:</span><span class="attribute">textSize</span>=<span class="value">"18sp"</span> />
 </pre>
 
-<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:21</span>: <span class="message">Hardcoded string "Enable Accessibility Service", should use <code>@string</code> resource</span><br /><pre class="errorlines">
-<span class="lineno"> 18 </span><span class="attribute">           </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/enableButton"</span>
-<span class="lineno"> 19 </span>           <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
-<span class="lineno"> 20 </span>           <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
-<span class="caretline"><span class="lineno"> 21 </span>           <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Enable Accessibility Service"</span></span>/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 22 </span>
-<span class="lineno"> 23 </span>   <span class="tag">&lt;/LinearLayout></span></pre>
+<span class="location"><a href="../../src/main/res/layout/activity_main.xml">../../src/main/res/layout/activity_main.xml</a>:24</span>: <span class="message">Hardcoded string "Open Accessibility Settings", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 21 </span><span class="attribute">        </span><span class="prefix">android:</span><span class="attribute">id</span>=<span class="value">"@+id/enable_service_button"</span>
+<span class="lineno"> 22 </span>        <span class="prefix">android:</span><span class="attribute">layout_width</span>=<span class="value">"wrap_content"</span>
+<span class="lineno"> 23 </span>        <span class="prefix">android:</span><span class="attribute">layout_height</span>=<span class="value">"wrap_content"</span>
+<span class="caretline"><span class="lineno"> 24 </span>        <span class="warning"><span class="prefix">android:</span><span class="attribute">text</span>=<span class="value">"Open Accessibility Settings"</span></span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 25 </span>
+<span class="lineno"> 26 </span><span class="tag">&lt;/LinearLayout></span>
+</pre>
 
 </div>
 <div class="metadata"><div class="explanation" id="explanationHardcodedText" style="display: none;">
@@ -647,19 +667,6 @@ Feedback: <a href="https://issuetracker.google.com/issues/new?component=823348">
 </div>
 </div>
 <div class="issue">
-<div class="id">ExperimentalAnnotationRetention<div class="issueSeparator"></div>
-</div>
-<div class="metadata"><div class="explanation">
-Experimental annotations defined in Java source should use default (<code>CLASS</code>) retention, while Kotlin-sourced annotations should use <code>BINARY</code> retention.<br/><div class="vendor">
-Vendor: Android Open Source Project<br/>
-Identifier: androidx.annotation.experimental<br/>
-Feedback: <a href="https://issuetracker.google.com/issues/new?component=459778">https://issuetracker.google.com/issues/new?component=459778</a><br/>
-</div>
-<br/>
-<br/></div>
-</div>
-</div>
-<div class="issue">
 <div class="id">FragmentBackPressedCallback<div class="issueSeparator"></div>
 </div>
 <div class="metadata"><div class="explanation">
@@ -694,82 +701,6 @@ FragmentContainerView replaces the &lt;fragment> tag as the preferred           
 Vendor: Android Open Source Project (androidx.fragment.lint.fragment)<br/>
 Identifier: androidx.fragment.lint.fragment<br/>
 Feedback: <a href="https://issuetracker.google.com/issues/new?component=192731">https://issuetracker.google.com/issues/new?component=192731</a><br/>
-</div>
-<br/>
-<br/></div>
-</div>
-</div>
-<div class="issue">
-<div class="id">InvalidFragmentVersionForActivityResult<div class="issueSeparator"></div>
-</div>
-<div class="metadata"><div class="explanation">
-In order to use the ActivityResult APIs you must upgrade your                 Fragment version to 1.3.0. Previous versions of FragmentActivity                 failed to call super.onRequestPermissionsResult() and used invalid request codes<br/><div class="moreinfo">More info: <a href="https://developer.android.com/training/permissions/requesting#make-the-request">https://developer.android.com/training/permissions/requesting#make-the-request</a>
-</div><div class="vendor">
-Vendor: Android Open Source Project<br/>
-Identifier: androidx.activity<br/>
-Feedback: <a href="https://issuetracker.google.com/issues/new?component=527362">https://issuetracker.google.com/issues/new?component=527362</a><br/>
-</div>
-<br/>
-<br/></div>
-</div>
-</div>
-<div class="issue">
-<div class="id">UnsafeOptInUsageError<div class="issueSeparator"></div>
-</div>
-<div class="metadata"><div class="explanation">
-This API has been flagged as opt-in with error-level severity.<br/>
-<br/>
-Any declaration annotated with this marker is considered part of an unstable or<br/>
-otherwise non-standard API surface and its call sites should accept the opt-in<br/>
-aspect of it by using the <code>@OptIn</code> annotation, using the marker annotation --<br/>
-effectively causing further propagation of the opt-in aspect -- or configuring<br/>
-the <code>UnsafeOptInUsageError</code> check's options for project-wide opt-in.<br/>
-<br/>
-To configure project-wide opt-in, specify the <code>opt-in</code> option value in <code>lint.xml</code><br/>
-as a comma-delimited list of opted-in annotations:<br/>
-
-<pre>
-&lt;lint>
-    &lt;issue id="UnsafeOptInUsageError">
-        &lt;option name="opt-in" value="com.foo.ExperimentalBarAnnotation" />
-    &lt;/issue>
-&lt;/lint>
-</pre>
-<br/><div class="vendor">
-Vendor: Android Open Source Project<br/>
-Identifier: androidx.annotation.experimental<br/>
-Feedback: <a href="https://issuetracker.google.com/issues/new?component=459778">https://issuetracker.google.com/issues/new?component=459778</a><br/>
-</div>
-<br/>
-<br/></div>
-</div>
-</div>
-<div class="issue">
-<div class="id">UnsafeOptInUsageWarning<div class="issueSeparator"></div>
-</div>
-<div class="metadata"><div class="explanation">
-This API has been flagged as opt-in with warning-level severity.<br/>
-<br/>
-Any declaration annotated with this marker is considered part of an unstable or<br/>
-otherwise non-standard API surface and its call sites should accept the opt-in<br/>
-aspect of it by using the <code>@OptIn</code> annotation, using the marker annotation --<br/>
-effectively causing further propagation of the opt-in aspect -- or configuring<br/>
-the <code>UnsafeOptInUsageWarning</code> check's options for project-wide opt-in.<br/>
-<br/>
-To configure project-wide opt-in, specify the <code>opt-in</code> option value in <code>lint.xml</code><br/>
-as a comma-delimited list of opted-in annotations:<br/>
-
-<pre>
-&lt;lint>
-    &lt;issue id="UnsafeOptInUsageWarning">
-        &lt;option name="opt-in" value="com.foo.ExperimentalBarAnnotation" />
-    &lt;/issue>
-&lt;/lint>
-</pre>
-<br/><div class="vendor">
-Vendor: Android Open Source Project<br/>
-Identifier: androidx.annotation.experimental<br/>
-Feedback: <a href="https://issuetracker.google.com/issues/new?component=459778">https://issuetracker.google.com/issues/new?component=459778</a><br/>
 </div>
 <br/>
 <br/></div>

@@ -4,29 +4,29 @@
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;Accessibility Service: Disabled&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Checking service status...&quot;, should use `@string` resource">
         <location
             file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="13"
-            column="12"
-            startOffset="467"
-            endLine="13"
-            endColumn="58"
-            endOffset="513"/>
+            line="16"
+            column="9"
+            startOffset="564"
+            endLine="16"
+            endColumn="50"
+            endOffset="605"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;Enable Accessibility Service&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Open Accessibility Settings&quot;, should use `@string` resource">
         <location
             file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
-            line="21"
-            column="12"
-            startOffset="761"
-            endLine="21"
-            endColumn="55"
-            endOffset="804"/>
+            line="24"
+            column="9"
+            startOffset="838"
+            endLine="24"
+            endColumn="51"
+            endOffset="880"/>
     </incident>
 
     <incident
@@ -35,12 +35,26 @@
         message="String literal in `setText` can not be translated. Use Android resources instead.">
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/reelshortblocker/MainActivity.java"
-            line="33"
+            line="47"
+            column="32"
+            startOffset="1686"
+            endLine="47"
+            endColumn="51"
+            endOffset="1705"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/reelshortblocker/MainActivity.java"
+            line="48"
             column="36"
-            startOffset="1120"
-            endLine="33"
-            endColumn="79"
-            endOffset="1163"/>
+            startOffset="1743"
+            endLine="48"
+            endColumn="67"
+            endOffset="1774"/>
     </incident>
 
     <incident
@@ -49,12 +63,12 @@
         message="String literal in `setText` can not be translated. Use Android resources instead.">
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/reelshortblocker/MainActivity.java"
-            line="59"
+            line="51"
             column="32"
-            startOffset="2126"
-            endLine="59"
-            endColumn="64"
-            endOffset="2158"/>
+            startOffset="1886"
+            endLine="51"
+            endColumn="72"
+            endOffset="1926"/>
     </incident>
 
     <incident
@@ -63,12 +77,12 @@
         message="String literal in `setText` can not be translated. Use Android resources instead.">
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/reelshortblocker/MainActivity.java"
-            line="62"
-            column="32"
-            startOffset="2253"
-            endLine="62"
+            line="52"
+            column="36"
+            startOffset="1964"
+            endLine="52"
             endColumn="65"
-            endOffset="2286"/>
+            endOffset="1993"/>
     </incident>
 
     <incident
@@ -83,11 +97,11 @@
         <location
             file="${:app*projectDir}/build.gradle"
             line="36"
-            column="23"
-            startOffset="815"
+            column="20"
+            startOffset="734"
             endLine="36"
-            endColumn="59"
-            endOffset="851"/>
+            endColumn="56"
+            endOffset="770"/>
     </incident>
 
     <incident

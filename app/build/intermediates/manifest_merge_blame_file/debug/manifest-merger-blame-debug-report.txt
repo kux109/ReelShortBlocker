@@ -10,79 +10,79 @@
 9        android:targetSdkVersion="34" />
 9-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
-11-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:3:8-88
-11-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:3:25-85
-12
-13    <permission
-13-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-14        android:name="com.example.reelshortblocker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+11    <permission
+11-->[androidx.core:core:1.13.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/3b93516f9b76a1d7b60a46e62d64fd14/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.reelshortblocker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/3b93516f9b76a1d7b60a46e62d64fd14/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/3b93516f9b76a1d7b60a46e62d64fd14/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.reelshortblocker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/3b93516f9b76a1d7b60a46e62d64fd14/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/3b93516f9b76a1d7b60a46e62d64fd14/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
 16
-17    <uses-permission android:name="com.example.reelshortblocker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-18
-19    <application
-19-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:4:8-31:22
-20        android:allowBackup="true"
-20-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:5:12-38
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.9.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/0d3aa342b9549cc1543d2e7fe296e21a/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-22        android:debuggable="true"
+17    <application
+17-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:6:5-38:19
+18        android:allowBackup="true"
+18-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/3b93516f9b76a1d7b60a46e62d64fd14/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:8:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:9:9-54
 23        android:icon="@mipmap/ic_launcher"
-23-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:6:12-46
+23-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:10:9-43
 24        android:label="@string/app_name"
-24-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:7:12-44
+24-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:11:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:8:12-57
+25-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:12:9-54
 26        android:supportsRtl="true"
-26-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:9:12-38
-27        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
-27-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:10:12-70
+26-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:13:9-35
+27        android:theme="@style/Theme.ReelShortBlocker" >
+27-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:14:9-54
 28        <activity
-28-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:11:12-18:23
+28-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:16:9-23:20
 29            android:name="com.example.reelshortblocker.MainActivity"
-29-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:12:16-44
-30            android:exported="true" >
-30-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:13:16-39
+29-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:17:13-41
+30            android:exported="true" > <!-- FIX: Set exported to true for the launcher activity -->
+30-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:18:13-36
 31            <intent-filter>
-31-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:14:16-17:32
+31-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:19:13-22:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:15:20-72
-32-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:15:28-69
+32-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:20:17-69
+32-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:20:25-66
 33
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:16:20-80
-34-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:16:30-77
+34-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:21:17-77
+34-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:21:27-74
 35            </intent-filter>
 36        </activity>
 37
 38        <service
-38-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:19:12-30:22
+38-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:25:9-36:19
 39            android:name="com.example.reelshortblocker.ReelShortBlockerService"
-39-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:20:16-55
-40            android:enabled="true"
-40-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:21:16-38
-41            android:exported="false"
-41-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:22:16-40
-42            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
-42-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:23:16-82
+39-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:26:13-52
+40            android:exported="false"
+40-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:29:13-37
+41            android:label="@string/app_name"
+41-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:28:13-45
+42            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" > <!-- FIX: Set exported to false for the service -->
+42-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:27:13-79
 43            <intent-filter>
-43-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:24:16-26:32
+43-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:30:13-32:29
 44                <action android:name="android.accessibilityservice.AccessibilityService" />
-44-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:25:20-95
-44-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:25:28-92
+44-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:31:17-92
+44-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:31:25-89
 45            </intent-filter>
 46
 47            <meta-data
-47-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:27:16-29:75
+47-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:33:13-35:72
 48                android:name="android.accessibilityservice"
-48-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:28:20-63
+48-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:34:17-60
 49                android:resource="@xml/accessibility_service_config" />
-49-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:29:20-72
+49-->/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/AndroidManifest.xml:35:17-69
 50        </service>
 51
 52        <provider
@@ -100,12 +100,56 @@
 58                android:value="androidx.startup" />
 58-->[androidx.emoji2:emoji2:1.2.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/29e5b5bd6bcc029d38e6072392b8b6d4/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 59            <meta-data
-59-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/8891136e42edc4be356dd444147de65a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+59-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/33915f104616e863899f15c9ebe962ed/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
 60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-60-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/8891136e42edc4be356dd444147de65a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+60-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/33915f104616e863899f15c9ebe962ed/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
 61                android:value="androidx.startup" />
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/8891136e42edc4be356dd444147de65a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-62        </provider>
-63    </application>
-64
-65</manifest>
+61-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/33915f104616e863899f15c9ebe962ed/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+64                android:value="androidx.startup" />
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+65        </provider>
+66
+67        <receiver
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+68            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+69            android:directBootAware="false"
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+70            android:enabled="true"
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+71            android:exported="true"
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+72            android:permission="android.permission.DUMP" >
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+73            <intent-filter>
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+74                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+75            </intent-filter>
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+77                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+80                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+83                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kushagrasrivastva/.gradle/caches/8.9/transforms/63e44a136b6d3e08330d65ea84396a81/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+84            </intent-filter>
+85        </receiver>
+86    </application>
+87
+88</manifest>

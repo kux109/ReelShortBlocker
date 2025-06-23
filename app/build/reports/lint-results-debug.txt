@@ -1,14 +1,14 @@
 /Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/build.gradle:31: Warning: Unknown issue id "Deprecation" [UnknownIssueId]
-           warning 'Deprecation'
-                    ~~~~~~~~~~~
+        warning 'Deprecation'
+                 ~~~~~~~~~~~
 
    Explanation for issues of type "UnknownIssueId":
    Lint will report this issue if it is configured with an issue id it does
    not recognize in for example Gradle files or lint.xml configuration files.
 
 /Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/build.gradle:36: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
-       implementation 'androidx.appcompat:appcompat:1.6.1'
-                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "GradleDependency":
    This detector looks for usages of libraries where the version you are using
@@ -17,6 +17,9 @@
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/values/strings.xml:4: Warning: The resource R.string.accessibility_service_description appears to be unused [UnusedResources]
+    <string name="accessibility_service_description">Blocks specific app interactions by monitoring accessibility events</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/values/strings.xml:5: Warning: The resource R.string.enable_service_button appears to be unused [UnusedResources]
     <string name="enable_service_button">Enable Accessibility Service</string>
             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -55,15 +58,18 @@
    sometimes point to icons that were accidentally overwritten or accidentally
    not updated.
 
-/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:33: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-                statusText.setText("Accessibility Service is already enabled!");
-                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:59: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-            statusText.setText("Accessibility Service: Enabled");
-                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:62: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
-            statusText.setText("Accessibility Service: Disabled");
-                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:47: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            statusText.setText("Service is Active");
+                               ~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:48: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            settingsButton.setText("Disable Service (in Settings)");
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:51: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            statusText.setText("Service is Inactive. Please enable it.");
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/java/com/example/reelshortblocker/MainActivity.java:52: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            settingsButton.setText("Open Accessibility Settings");
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "SetTextI18n":
    When calling TextView#setText
@@ -78,12 +84,12 @@
 
    https://developer.android.com/guide/topics/resources/localization.html
 
-/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/layout/activity_main.xml:13: Warning: Hardcoded string "Accessibility Service: Disabled", should use @string resource [HardcodedText]
-           android:text="Accessibility Service: Disabled"
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/layout/activity_main.xml:21: Warning: Hardcoded string "Enable Accessibility Service", should use @string resource [HardcodedText]
-           android:text="Enable Accessibility Service"/>
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/layout/activity_main.xml:16: Warning: Hardcoded string "Checking service status...", should use @string resource [HardcodedText]
+        android:text="Checking service status..."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kushagrasrivastva/Desktop/ReelShortBlocker/app/src/main/res/layout/activity_main.xml:24: Warning: Hardcoded string "Open Accessibility Settings", should use @string resource [HardcodedText]
+        android:text="Open Accessibility Settings" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "HardcodedText":
    Hardcoding text attributes directly in layout files is bad for several
@@ -99,4 +105,4 @@
    There are quickfixes to automatically extract this hardcoded string into a
    resource lookup.
 
-0 errors, 10 warnings
+0 errors, 12 warnings

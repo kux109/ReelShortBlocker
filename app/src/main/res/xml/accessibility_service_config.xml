@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
     android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFlags="flagDefault"
     android:accessibilityFeedbackType="feedbackAllMask"
     android:notificationTimeout="100"
-    android:accessibilityFlags="flagDefault"
-    android:canRetrieveWindowContent="true"
-    android:packageNames="com.instagram.android,com.facebook.katana,com.google.android.youtube"
-    android:description="@string/accessibility_service_description" />
+    android:canRetrieveWindowContent="true" />

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.reelshortblocker.app-mergeDebugResources-19:/values-v22/values-v22.xml",
+            "outputFile": "com.example.reelshortblocker.app-mergeDebugResources-30:/values-v22/values-v22.xml",
             "map": [
                 {
                     "source": "/Users/kushagrasrivastva/.gradle/caches/8.9/transforms/97874257301ade7eac35b7c8b350e7c3/transformed/appcompat-1.6.1/res/values-v22/values-v22.xml",
